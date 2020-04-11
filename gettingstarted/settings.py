@@ -86,11 +86,11 @@ WSGI_APPLICATION = "gettingstarted.wsgi.application"
 
 DATABASES = {
     "default": {
-        "HOST": "ec2-3-229-210-93.compute-1.amazonaws.com",
-        "NAME": "d19ge5itd4ds2i",
-        "USER": "yxnyqvponovxxq",
+        "HOST": "ec2-54-152-175-141.compute-1.amazonaws.com",
+        "NAME": "dfljn0gnsbqocf",
+        "USER": "lvdrdixhvkcnla",
         "PORT": "5432",
-        "PASSWORD": "8f8045c50a933a6980ef4f0d0f9e78177799359468e0d2faae34d63c4d654943",
+        "PASSWORD": "f006ae35ac4bd0bad5585236378e39682600c50be1e351e2f617f6367af75af8",
         "ENGINE": "django.db.backends.postgresql"
     }
 }
