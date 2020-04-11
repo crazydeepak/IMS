@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+      <h2>Inventory</h2>
+      <ul>
+        {% for item in items %}
+        <li>{{ item.remarks }}</li>
+        <li>{{ item.added_ts }}</li>
+        <li>{{ item.quantity }}</li>
+        <li>{{ item.location }}</li>
+        <li>{{ item.item_type }}</li>
+        <li>{{ item.item_name }}</li>
+        <li>{{ item.model_num }}</li>
+        <li>{{ item.project_name }}</li>
+        <li>{{ item.item_serial_num }}</li>
+        <li>{{ item.calibration_date }}</li>
+        {% endfor %}        
+      </ul>
+      <hr>        
+    </div>        
+</body>
+</html>
